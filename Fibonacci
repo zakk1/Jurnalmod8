@@ -1,5 +1,4 @@
 
-
 package fibonanci;
 import java.util.Scanner;
 public class Fibonanci {
@@ -17,16 +16,16 @@ public class Fibonanci {
         angka=n.nextInt();
         System.out.print("");
         System.out.println("Output: ");
-        System.out.print(b+" ");
         for(int i=1;i<angka;i++ ){
             
-            c = a + b;
-                
+            c = a + b;   
             a = b;
             b = c;
-            System.out.print( c +" ");
+            d = d+c;
             
         }
+        d=d+1;
+        System.out.println("Output: "+d);
         
     }
     
