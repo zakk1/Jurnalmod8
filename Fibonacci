@@ -1,5 +1,4 @@
 
-
 package fibonanci;
 import java.util.Scanner;
 public class Fibonanci {
@@ -22,8 +21,7 @@ public class Fibonanci {
             
             c = a + b;
                 
-            a = b;
-            b = c;
+           =
             System.out.print( c +" ");
             
         }
